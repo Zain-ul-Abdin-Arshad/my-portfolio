@@ -1,0 +1,133 @@
+*{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    /* scroll-behavior: unset; */
+}
+
+.name{
+    color: rgb(250, 247, 247);
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 90;
+    text-align: left;
+    font-weight: 500; 
+    animation: fadeIn 3s;
+    animation-iteration-count: infinite;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    font-weight: bolder;
+}
+.name-center{
+    width: 50%;
+    margin: auto;
+}
+.name_anchor{
+    text-decoration: none;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.nav-links{
+    width: 100%;
+    color: white;
+    display: inline-block;
+    z-index: 9;
+    background-color: antiquewhite;
+    text-align: center;
+    
+}
+.lii{
+    display: inline-block;
+    margin-right: 30px;
+    z-index: 9;
+    font-weight: 500;
+    background-color: antiquewhite;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid rgb(255, 243, 7);
+	border-bottom: 25px solid transparent;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-left: 50px solid rgb(255, 243, 7);
+	border-bottom: 25px solid transparent;
+}
+a:-webkit-any-link{
+    text-decoration:none !important;
+}
+
+footer {
+    text-align: center;
+    padding: 2px;
+    background-color: #abbaba;
+    color: #000;
+  }
+.nav-links2{
+    position: fixed;
+    bottom: 0;
+
+    width: 100%;
+    display: inline-block;
+    background-color: antiquewhite;
+    text-align: center;
+}
+.crousal-img{
+    bottom: 0;
+    top: 0;
+}
+.text-color{
+    color: white;
+}
+.triangle-left-about {
+    padding-top: 10px;
+    width: 0;
+    margin: auto;
+	border-top: 25px solid transparent;
+	border-right: 50px solid rgb(255, 243, 7);
+	border-bottom: 25px solid transparent;
+    rotate: 270deg;
+}
+.aaa:hover{
+    background: linear-gradient(180deg,black,rgb(96, 95, 95));
+    border-radius: 100px;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 500;
+}
+footer {
+    text-align: center;
+    background-color: #864e1d; 
+    color: #864e1d;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    
+}
+.pp{
+    background-color: #864e1d;
+    width: 100%;
+    text-align: center;
+    font-weight: 400;
+}
+p{
+    color: rgb(247, 247, 247);
+    
+}
+img{
+    padding-top: 60px;
+}
+
